@@ -1,0 +1,160 @@
+<!--{% load static from staticfiles %}-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Demographic Data</title>
+
+    <!--<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">-->
+    <link rel="stylesheet" href="{% static 'css/normalize.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="css/main.css">
+    <!--CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'favicons/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'favicons/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'favicons/favicon-16x16.png' %}">
+    <link rel="manifest" href="{% static 'favicons/manifest.json' %}">
+    <meta name="theme-color" content="#ffffff">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.1/chart.min.js" integrity="sha512-5vwN8yor2fFT9pgPS9p9R7AszYaNn0LkQElTXIsZFCL7ucT8zDCAqlQXDdaqgA1mZP47hdvztBMsIoFxq/FyyQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+ <body>
+<!--
+    <header>
+        <a href="https://github.com/Toughee/GDPdig">
+        <i class="fa fa-github" style="font-size:48px;color:black"></i>
+        </a>
+    </header>-->
+
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <article class="main-container component">
+            <aside class="main wrapper clearfix">
+                    <h2>👩‍🦰👨‍🦱🧔👧 Demographic data</h2>
+<br>
+                        <noscript>
+                            <h2>This app requires JavaScript to be used. Please enable it to continue</h2>
+                        </noscript>
+                    
+                        <a href="index.html">
+                                <button>
+                                    <span class="icon_style">🏠</span> Return
+                                </button>
+                        </a>
+                            <br>
+
+
+                        <a href="growth.html">
+                                <button>
+                                  <span class="icon_style"> 📈</span> Growth in a century
+                                </button>
+                        </a>
+                        <br>
+
+                        <a href="mostpopulated.html">
+                                <button>
+                                  <span class="icon_style">🏙️</span> Most populated cities
+                                </button>
+                        </a>
+                         <br>
+                        <a href="leastpopulated.html">
+                                <button>
+                                    <span class="icon_style">🏚️</span> Least populated cities
+                                </button>
+                        </a>
+            </aside> 
+        </article> 
+        </article> 
+<canvas id="demographChart"></canvas>
+<script>
+var ctx = document.getElementById('demographChart').getContext('2d');
+
+const labels = [
+  '1871',
+  '1896',
+  '1896',
+  '1921',
+  '1946',
+  '1971',
+  '1996',
+  '2021',
+];
+
+
+var demographChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: labels,
+        datasets: [
+            {
+                label: 'White',
+
+                data: [15000, 15300, 15200, 12000, 18000, 13000, 17000, 18900],
+                backgroundColor: [
+                    'blue'
+            ],
+            },
+            {
+                label: 'African American',
+                data: [15000, 15300, 15200, 12000, 18000, 13000, 17000, 18900],
+                backgroundColor: [
+                    'red'
+            ],
+            },
+            {
+                label: 'Asian',
+                data: [15000, 15300, 15200, 12000, 18000, 13000, 17000, 18900],
+                backgroundColor: [
+                    'yellow'
+            ],
+            },
+                {
+                        label: 'Hispanic',
+
+                        data: [15000, 15300, 15200, 12000, 18000, 13000, 17000, 18900],
+                        backgroundColor: [
+                            'green',
+                    ],
+                 },
+            
+{
+                        label: 'Other',
+
+                        data: [15000, 15300, 15200, 12000, 18000, 13000, 17000, 18900],
+                        backgroundColor: [
+                            'purple'
+                    ],
+                 },
+
+        ]
+    },
+    options: {
+        scales: {
+            y: {
+                stacked: true
+            }, 
+            x: {
+                stacked: true
+            }
+        }
+    }
+});
+</script>
+
+       
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="{% static 'plugins.js' %}"></script>
+        <script src="{% static 'datadisplay.js' %}"></script>
+        
+
+</body>
+
+</html>
