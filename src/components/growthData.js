@@ -15,7 +15,7 @@ const dataConfig = {
       label: 'Population growth in percentage',
       backgroundColor: 'blue',
       borderColor: 'black',
-      borderWidth: 2,
+      borderWidth: 0.3,
       data: [14.5, 18.5, 13.3, 11.5, 9.8, 13.2, 9.7, 7.4]
     }
   ]
