@@ -5,9 +5,9 @@ Data science application showcasing population data inside the USA
 
 ## Current data being displayed:
 
-- Growth data in the span of 150 years
-- Most populated cities in the USA
-- Least populated cities in the USA
+- Growth data in the span of 50 years
+- Fastest growing cities in the USA
+- Least populated towns in the USA
 
 
 ### Data sources:
