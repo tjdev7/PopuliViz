@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PopuliVisular/static/css/main.0d0861f4.chunk.css",
-    "main.js": "/PopuliVisular/static/js/main.eda87b04.chunk.js",
-    "main.js.map": "/PopuliVisular/static/js/main.eda87b04.chunk.js.map",
+    "main.js": "/PopuliVisular/static/js/main.13ca88e9.chunk.js",
+    "main.js.map": "/PopuliVisular/static/js/main.13ca88e9.chunk.js.map",
     "runtime-main.js": "/PopuliVisular/static/js/runtime-main.d1ec7d9e.js",
     "runtime-main.js.map": "/PopuliVisular/static/js/runtime-main.d1ec7d9e.js.map",
     "static/js/2.4f169a46.chunk.js": "/PopuliVisular/static/js/2.4f169a46.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d1ec7d9e.js",
     "static/js/2.4f169a46.chunk.js",
     "static/css/main.0d0861f4.chunk.css",
-    "static/js/main.eda87b04.chunk.js"
+    "static/js/main.13ca88e9.chunk.js"
   ]
 }
