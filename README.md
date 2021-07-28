@@ -1,3 +1,6 @@
+![App logo](./public/img/popviz.svg)
+
+
 # PopuliVisular
 
 Data science application showcasing population data inside the USA
