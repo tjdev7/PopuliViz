@@ -13,7 +13,7 @@ const dataConfig = {
       label: 'Fastest growing cities in the USA',
       backgroundColor: ['red','orange','yellow','green','blue', 'purple'],
       borderColor: 'black',
-      borderWidth: 2,
+      borderWidth: 0.3,
       data: [21768, 27288, 25892, 13819, 13054, 11529]
     }
   ]
