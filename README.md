@@ -14,13 +14,13 @@ Data science application showcasing population data inside the USA
 
 ### Data sources:
 
-- [Growth data in percentage]
+[Growth data in percentage]
 https://www.brookings.edu/research/census-2020-data-release/
 
-- [Fastest growing cities in the USA]
+[Fastest growing cities in the USA]
 https://www.census.gov/library/stories/2020/05/america-a-nation-of-small-towns.html
 
-- [Smallest towns in the USA] 
+[Smallest towns in the USA] 
 https://www.mentalfloss.com/article/502234/smallest-town-each-50-states
 
 
@@ -31,6 +31,7 @@ https://www.mentalfloss.com/article/502234/smallest-town-each-50-states
 
 - [ ] Adding more sources for information
 - [ ] New option demographic percentage in the span of 50 years to a century
+- [ ] Adding more data components inside app
 - [ ] Add video/gif walkthrough of app use
 - [ ] Adding all information to a backend API instead of having all data inserted into inline JS code
 
