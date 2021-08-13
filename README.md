@@ -4,6 +4,7 @@
 
 Data science application showcasing population data inside the USA
 
+![Splash page](./public/img/PopuliVisularSplash.png)
 
 ## Current data being displayed:
 
@@ -15,25 +16,23 @@ Data science application showcasing population data inside the USA
 ### Data sources:
 
 [Growth data in percentage]
-https://www.brookings.edu/research/census-2020-data-release/
+(https://www.brookings.edu/research/census-2020-data-release/)
 
 [Fastest growing cities in the USA]
-https://www.census.gov/library/stories/2020/05/america-a-nation-of-small-towns.html
+(https://www.census.gov/library/stories/2020/05/america-a-nation-of-small-towns.html)
 
 [Smallest towns in the USA] 
-https://www.mentalfloss.com/article/502234/smallest-town-each-50-states
-
-
-![Splash page](./public/img/PopuliVisularSplash.png)
-
+(https://www.mentalfloss.com/article/502234/smallest-town-each-50-states)
 
 ### Future app goals:
 
 - [ ] Adding more sources for information
-- [ ] New option demographic percentage in the span of 50 years to a century
+- [ ] New option demographic percenWage in the span of 50 years to a century
 - [ ] Adding more data components inside app
 - [ ] Add video/gif walkthrough of app use
 - [ ] Adding all information to a backend API instead of having all data inserted into inline JS code
+
+Project Roadmap can [be found here](https://github.com/Toughee/PopuliVisular/projects/1)
 
 #### How to use:
 
