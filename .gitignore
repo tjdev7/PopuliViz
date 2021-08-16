@@ -8,6 +8,10 @@
 
 # testing
 /coverage
+/tests/Ligthouse_audits/Lite.report.csv
+/tests/Ligthouse_audits/Lite.report.html
+/tests/Ligthouse_audits/Lite.report.json
+
 
 # production
 /build

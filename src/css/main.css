@@ -1,66 +1,65 @@
-@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
 
 body {
-  background-color: #ffffff;
+    background-color: #ffffff;
 }
 
 button {
-  padding: 5px;
-  margin: 5px;
-  color: #000000;
-  background-color: white;
-  text-decoration: none;
-  border-radius: 5%;
+    padding: 5px;
+    margin: 5px;
+    color: #000000;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 5%;
 }
 
 .charts {
-  margin: 100px;
-  z-index: -1;
-  width: 600px;
-  height: 600px;
-  margin: auto;
-  margin-top: -200px;
-  position: static;
-  top: 0;
-  left: 0;
-  padding-bottom: 200px;
+    margin: 100px;
+    z-index: -1;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    margin-top: -200px;
+    position: static;
+    top: 0;
+    left: 0;
+    padding-bottom: 200px;
 }
 
 .chartgraph {
-  margin: 100px;
-  z-index: -1;
-  width: 800px;
-  height: 800px;
-  margin: auto;
-  margin-top: -200px;
-  position: static;
-  top: 0;
-  left: 0;
-  padding-bottom: 200px;
+    margin: 100px;
+    z-index: -1;
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    margin-top: -200px;
+    position: static;
+    top: 0;
+    left: 0;
+    padding-bottom: 200px;
 }
 
 .component {
-  text-align: left;
-  position: static;
-  right: 0;
-  padding: 10px;
-  left: 0%;
-  z-index: 1;
+    text-align: left;
+    position: static;
+    right: 0;
+    padding: 10px;
+    left: 0%;
+    z-index: 1;
 }
 
 h1 {
-  font-size: 2.8rem;
-  font-family: "Dosis", sans-serif;
-  margin-top: -10px;
-  margin-bottom: -10px;
+    font-size: 2.8rem;
+    font-family: 'Dosis', sans-serif;
+    margin-top: -10px;
+    margin-bottom: -10px;
 }
 
 h2 {
-  font-family: "Gill Sans", sans-serif;
-  font-size: 1rem;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 1rem;
 }
 
 .icon_style {
-  font-size: 1.8rem;
+    font-size: 1.8rem;
 }

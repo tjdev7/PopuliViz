@@ -32,13 +32,15 @@ Data science application showcasing population data inside the USA
 
 - [ ] Adding more sources for information
 - [ ] New option for more demographic information 
+- [ ] New data points (births by gender, average salary, changing demographics, average income)
 - [ ] Adding more data components inside app
 - [ ] Add video/gif walkthrough of app use
 - [ ] Adding all information to a backend API instead of having all data inserted into inline JS code
+- [ ] Include CircleCI and Travis-CI inside project
 
 #### Project resources:
 
-[Current roadmap for app](https://github.com/Toughee/PopuliVisular/projects/1)
-[Wiki page for app](https://github.com/Toughee/PopuliVisular/wiki)
-[Documentation for project contributors](https://github.com/Toughee/PopuliVisular/tree/main/docs)
+- [Current roadmap for app](https://github.com/Toughee/PopuliVisular/projects/1)
+- [Wiki page for app](https://github.com/Toughee/PopuliVisular/wiki)
+- [Documentation for project contributors](https://github.com/Toughee/PopuliVisular/tree/main/docs)
 
