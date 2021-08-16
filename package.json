@@ -1,6 +1,6 @@
 {
   "name": "populivisular",
-  "version": "1.1.2",
+  "version": "1.2.1",
   "private": false,
   "homepage": "https://toughee.github.io/PopuliVisular/",
   "dependencies": {
@@ -10,6 +10,8 @@
     "chart.js": "^3.4.1",
     "glob": "^7.1.7",
     "glob-parent": "^6.0.1",
+    "lighthouse": "^8.3.0",
+    "lighthouse-ci": "^1.13.0",
     "react": "^17.0.2",
     "react-chartjs-2": "^3.0.4",
     "react-dom": "^17.0.2",
@@ -24,7 +26,8 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "npm run build&&gh-pages -d build",
-    "codecleaner": "npx prettier --write '**/*.js'&&npx prettier --write '**/*.css'&&npx prettier --write '**/*.html'"
+    "codecleaner": "npx prettier --write '**/*.js'&&npx prettier --write '**/*.css'&&npx prettier --write '**/*.html'",
+    "litereport": "lighthouse http://localhost:3000/ --output json --output csv --output html --output-path tests/Lighthouse_audits/Lite.html --view | lighthouse-ci http://localhost:3000/"
   },
   "eslintConfig": {
     "extends": [
