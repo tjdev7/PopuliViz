@@ -12,6 +12,8 @@
 /tests/Ligthouse_audits/Lite.report.html
 /tests/Ligthouse_audits/Lite.report.json
 
+# Visual Studio files
+.history/
 
 # production
 /build
