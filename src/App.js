@@ -1,11 +1,12 @@
 import React from 'react'
 
+import { BrowserRouter, Route, Link } from 'react-router-dom'
+
 import main from './components/main'
 import growthData from './components/growthData'
 import growingCities from './components/growingCities'
 import smallestCities from './components/smallestCities'
 
-import { BrowserRouter, Route, Link } from 'react-router-dom'
 
 import './css/main.css'
 
@@ -13,7 +14,7 @@ class Start extends React.Component {
     render() {
         return (
             <article class="main-container component">
-                <h1>Popular Visular</h1>
+                <h1>PopuliViz</h1>
 
                 <br />
 
@@ -21,7 +22,7 @@ class Start extends React.Component {
                     <nav>
                         <Link to="/main">
                             <button>
-                                <span class="icon_style">🏠</span> Home
+                                <span class="icon_style">🏠</span> <h2>About</h2>
                             </button>
                         </Link>
                     </nav>
@@ -29,8 +30,8 @@ class Start extends React.Component {
                     <nav>
                         <Link to="/growthData">
                             <button>
-                                <span class="icon_style"> 📈</span> Population
-                                growth in %
+                                <span class="icon_style"> 📈</span> <h2>Population
+                                growth in %</h2>
                             </button>
                         </Link>
                     </nav>
@@ -38,8 +39,8 @@ class Start extends React.Component {
                     <nav>
                         <Link to="/growingCities">
                             <button>
-                                <span class="icon_style">🏙️</span> Fastest
-                                growing cities
+                                <span class="icon_style">🏙️</span> <h2>Fastest
+                                growing cities</h2>
                             </button>
                         </Link>
                     </nav>
@@ -47,8 +48,8 @@ class Start extends React.Component {
                     <nav>
                         <Link to="/smallestCities">
                             <button>
-                                <span class="icon_style">🏚️</span> Smallest
-                                towns
+                                <span class="icon_style">🏚️</span> <h2>Smallest
+                                towns</h2>
                             </button>
                         </Link>
                     </nav>

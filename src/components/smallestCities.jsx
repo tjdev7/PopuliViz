@@ -22,7 +22,7 @@ const dataConfig = {
 export default class smallestCities extends React.Component {
   render() {
     return (
-      <div className="charts">
+      <div className="cityChart">
         <Pie
           data={dataConfig}
         />
