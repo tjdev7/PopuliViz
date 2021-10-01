@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom'
 
 import GrowthData from './components/GrowthData'
 
-test('Renders the GrowthData component with no issues', () => {
-    render(<GrowthData />)
+// Testing scripts are currently a W.I.P
+
+//test('Renders the GrowthData component with no issues', () => {
+//    render(<GrowthData />)
     // ReactDOM.render(<GrowthData />);
     // ReactDOM.unmountComponentAtNode(<GrowthData />);
-})
+//})
