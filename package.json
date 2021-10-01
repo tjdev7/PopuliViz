@@ -1,7 +1,7 @@
 {
-  "name": "populivisular",
+  "name": "populiviz",
   "version": "1.2.3",
-  "private": false,
+  "private": true,
   "homepage": "https://toughee.github.io/PopuliVisular/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -10,7 +10,7 @@
     "chart.js": "^3.5.1",
     "cypress": "^8.5.0",
     "glob": "^7.2.0",
-    "glob-parent": "^6.0.1",
+    "glob-parent": "^6.0.2",
     "lighthouse": "^8.5.1",
     "lighthouse-ci": "^1.13.0",
     "react": "^17.0.2",

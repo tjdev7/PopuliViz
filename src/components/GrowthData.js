@@ -23,7 +23,7 @@ const dataConfig = {
     ],
 }
 
-export default class growthData extends React.Component {
+export default class GrowthData extends React.Component {
     render() {
         return (
             <div className="chartgraph">

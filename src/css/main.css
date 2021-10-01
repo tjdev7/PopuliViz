@@ -5,10 +5,10 @@ body {
 }
 
 button {
-    padding: 3px 15px;
+    padding: 15px;
     margin: 0;
     color: #000000;
-    background-color: white;
+    background-color: #FFFFFF;
     text-decoration: none;
     border-radius: 10px;
 }
@@ -42,7 +42,20 @@ button {
     background: #FFFFFF;
 }
 
-.component {
+.MainPageStyle {
+    z-index: -1;
+    width: 700px;
+    margin: auto;
+    margin-top: -500px;
+    position: static;
+    top: 0;
+    left: 0;
+    padding: 20px 20px;
+    border: 0.5px solid #000;
+    background: #FFFFFF;
+}
+
+.MenuBar {
     text-align: left;
     position: static;
     right: 0;
@@ -61,6 +74,12 @@ h1 {
 h2 {
     font-family: 'Gill Sans', sans-serif;
     font-size: 1rem;
+}
+
+p {
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 2rem;
+    text-align: justify;
 }
 
 .icon_style {

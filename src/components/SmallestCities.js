@@ -19,7 +19,7 @@ const dataConfig = {
   ]
 }
 
-export default class smallestCities extends React.Component {
+export default class SmallestCities extends React.Component {
   render() {
     return (
       <div className="cityChart">

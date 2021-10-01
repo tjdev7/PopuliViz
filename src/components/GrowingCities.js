@@ -19,7 +19,7 @@ const dataConfig = {
   ]
 }
 
-export default class growingCities extends React.Component {
+export default class GrowingCities extends React.Component {
   render() {
     return (
       <div className="cityChart">
