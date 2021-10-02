@@ -1,23 +1,24 @@
 {
-  "name": "populivisular",
-  "version": "1.2.2",
-  "private": false,
+  "name": "populiviz",
+  "version": "1.2.3",
+  "private": true,
   "homepage": "https://toughee.github.io/PopuliVisular/",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "chart.js": "^3.4.1",
-    "glob": "^7.1.7",
-    "glob-parent": "^6.0.1",
-    "lighthouse": "^8.3.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.1.1",
+    "@testing-library/user-event": "^13.2.1",
+    "chart.js": "^3.5.1",
+    "cypress": "^8.5.0",
+    "glob": "^7.2.0",
+    "glob-parent": "^6.0.2",
+    "lighthouse": "^8.5.1",
     "lighthouse-ci": "^1.13.0",
     "react": "^17.0.2",
-    "react-chartjs-2": "^3.0.4",
+    "react-chartjs-2": "^3.0.5",
     "react-dom": "^17.0.2",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "^4.0.3",
+    "web-vitals": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,7 +28,9 @@
     "predeploy": "npm run build",
     "deploy": "npm run build&&gh-pages -d build",
     "codecleaner": "npx prettier --write '**/*.js'&&npx prettier --write '**/*.css'&&npx prettier --write '**/*.html'",
-    "litereport": "lighthouse http://localhost:3000/ --output json --output csv --output html --output-path tests/Lighthouse_audits/Lite.html --view | lighthouse-ci http://localhost:3000/"
+    "litereport": "lighthouse http://localhost:3000/ --output json --output csv --output html --output-path tests/Lighthouse_audits/Lite.html --view | lighthouse-ci http://localhost:3000/",
+    "fullpr": "git add .&&git commit&&git push&&git merge",
+    "audits": "npm-update-all&&yarn install&&npm audit fix&&npm audit --fix"
   },
   "eslintConfig": {
     "extends": [
@@ -35,20 +38,12 @@
       "react-app/jest"
     ]
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
+  "browserslist": [],
   "devDependencies": {
     "gh-pages": "^3.2.3",
-    "prettier": "2.3.2"
+    "prettier": "^2.4.1"
+  },
+  "resolutions": {
+    "glob-parent": "5.1.2"
   }
 }

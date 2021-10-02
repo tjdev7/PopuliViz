@@ -1,69 +1,70 @@
 import React from 'react'
 
-import main from './components/main'
-import growthData from './components/growthData'
-import growingCities from './components/growingCities'
-import smallestCities from './components/smallestCities'
-
 import { BrowserRouter, Route, Link } from 'react-router-dom'
+
+import MainPage from './components/MainPage'
+import GrowthData from './components/GrowthData'
+import GrowingCities from './components/GrowingCities'
+import SmallestCities from './components/SmallestCities'
+
 
 import './css/main.css'
 
-class Start extends React.Component {
+class App extends React.Component {
     render() {
         return (
-            <article class="main-container component">
-                <h1>Popular Visular</h1>
+            <article className="main-container MenuBar">
+                <h1>PopuliViz</h1>
 
                 <br />
 
                 <BrowserRouter>
                     <nav>
-                        <Link to="/main">
+                        <Link to="/MainPage">
                             <button>
-                                <span class="icon_style">🏠</span> Home
+                                <span className="icon_style">🏠</span> <h2>About page</h2>
                             </button>
                         </Link>
                     </nav>
 
                     <nav>
-                        <Link to="/growthData">
+                        <Link to="/GrowthData">
                             <button>
-                                <span class="icon_style"> 📈</span> Population
-                                growth in %
+                                <span className="icon_style"> 📈</span> <h2>Population
+                                growth <br/>in percentage(%)</h2>
                             </button>
                         </Link>
                     </nav>
 
                     <nav>
-                        <Link to="/growingCities">
+                        <Link to="/GrowingCities">
                             <button>
-                                <span class="icon_style">🏙️</span> Fastest
-                                growing cities
+                                <span className="icon_style">🏙️</span> <h2>Fastest
+                                growing cities</h2>
                             </button>
                         </Link>
                     </nav>
 
                     <nav>
-                        <Link to="/smallestCities">
+                        <Link to="/SmallestCities">
                             <button>
-                                <span class="icon_style">🏚️</span> Smallest
-                                towns
+                                <span className="icon_style">🏚️</span> <h2>Smallest
+                                towns</h2>
                             </button>
                         </Link>
                     </nav>
 
-                    <Route path="/main" component={main} />
+                    <Route path="/MainPage" component={MainPage} />
 
-                    <Route path="/growthData" component={growthData} />
+                    <Route path="/GrowthData" component={GrowthData} />
 
-                    <Route path="/growingCities" component={growingCities} />
+                    <Route path="/GrowingCities" component={GrowingCities} />
 
-                    <Route path="/smallestCities" component={smallestCities} />
+                    <Route path="/SmallestCities" component={SmallestCities} />
                 </BrowserRouter>
             </article>
         )
     }
 }
 
-export default Start
+export default App
