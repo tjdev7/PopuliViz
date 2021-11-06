@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { BrowserRouter, Route, Link } from 'react-router-dom'
+import { BrowserRouter, Route, Routes, Link } from 'react-router-dom'
 
 import MainPage from './components/MainPage'
 import GrowthData from './components/GrowthData'
@@ -57,13 +57,15 @@ class App extends React.Component {
                         </Link>
                     </nav>
 
-                    <Route path="/MainPage" component={MainPage} />
+                    <Routes>
+                        <Route path="/MainPage" element={<MainPage />} />
 
-                    <Route path="/GrowthData" component={GrowthData} />
+                        <Route path="/GrowthData" element={<GrowthData />} />
 
-                    <Route path="/GrowingCities" component={GrowingCities} />
+                        <Route path="/GrowingCities" element={<GrowingCities />} />
 
-                    <Route path="/SmallestCities" component={SmallestCities} />
+                        <Route path="/SmallestCities" element={<SmallestCities />} />
+                    </Routes>
                 </BrowserRouter>
             </article>
         )
