@@ -25,5 +25,5 @@
 
 <!---
 Example: 
-Fix|Update for PopuliVisular/PR-Number/name_of_fix
+Fix|Update for PopuliViz/PR-Number/name_of_fix
 --->
